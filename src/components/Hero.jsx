@@ -1,10 +1,9 @@
 import { BookOpen, Send } from "lucide-react";
-import heroPng from "../assets/hero.png";
 import pfJpg from "../assets/pf.jpg";
 
 export default function Hero() {
   return (
-    <section className="w-full rounded-[22px] bg-white shadow-sm border border-slate-100 overflow-hidden">
+    <section className="relative w-full rounded-[22px] bg-white shadow-sm border border-slate-100 overflow-hidden">
       {/* Subtle top-right tint */}
       <div
         className="absolute top-0 right-0 w-32 h-32 pointer-events-none rounded-[22px]"
@@ -85,7 +84,6 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src={heroPng}
                   src={pfJpg}
                   alt="Bunly developer illustration"
                   className="w-full h-full object-cover"
