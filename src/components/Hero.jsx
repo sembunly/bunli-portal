@@ -88,7 +88,6 @@ export default function Hero() {
                   src={heroPng}
                   src={pfJpg}
                   alt="Bunly developer illustration"
-                  className="w-full h-full object-contain"
                   className="w-full h-full object-cover"
                 />
               </div>
